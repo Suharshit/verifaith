@@ -1,0 +1,16 @@
+id,answer,human_label,verifaith_score,verifaith_label,ragas_score,ragas_label,verifaith_correct,ragas_correct
+1,Photosynthesis occurs in the chloroplasts of plant cells and requires carbon dioxide and water.,1,0.3333,0,1.0,1,0,1
+2,The Great Wall of China was built to protect against invasions from the north.,1,0.0,0,1.0,1,0,1
+3,Python was created by Guido van Rossum and released in 1991.,1,0.5,1,1.0,1,1,1
+4,The human heart pumps blood through the body and has four chambers.,1,0.5,1,1.0,1,1,1
+5,Water boils at 100 degrees Celsius at standard atmospheric pressure.,1,1.0,1,1.0,1,1,1
+6,Shakespeare wrote Hamlet and Macbeth.,1,1.0,1,1.0,1,1,1
+7,The Amazon River is the largest river in the world by water discharge.,1,1.0,1,1.0,1,1,1
+8,Photosynthesis releases carbon dioxide as a byproduct.,0,0.0,0,0.0,0,1,1
+9,The Great Wall of China was built by the Romans.,0,0.0,0,0.0,0,1,1
+10,Python was created by Linus Torvalds in 2005.,0,0.0,0,0.0,0,1,1
+11,The human heart has three chambers.,0,0.0,0,0.0,0,1,1
+12,Water boils at 50 degrees Celsius at standard pressure.,0,0.5,1,0.0,0,0,1
+13,Shakespeare wrote Harry Potter and Macbeth.,0,0.5,1,0.0,0,0,1
+14,The Amazon River is the longest river in the world.,0,0.0,0,0.0,0,1,1
+15,Photosynthesis occurs in the mitochondria of plant cells.,0,0.5,1,0.0,0,0,1

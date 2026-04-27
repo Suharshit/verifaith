@@ -1,0 +1,33 @@
+# VeriFaith Evaluation Report
+> Generated: 2026-04-24 12:44:31
+
+## Summary
+
+| Metric | Value |
+|--------|-------|
+| **Faithfulness Score** | `0.5` |
+| **Verdict** | **PARTIAL** |
+| Score Bar | `█████░░░░░` |
+| Total Claims | 4 |
+| ✅ Supported | 2 |
+| ⚪ Unverified | 2 |
+| ❌ Contradicted | 0 |
+
+## Evaluated Answer
+> The Eiffel Tower was built in 1950 and stands 500 metres tall.
+It was designed by Leonardo da Vinci and is located in London, England.
+
+## Per Claim Breakdown
+
+| ID | Claim | Status | Confidence | Evidence |
+|----|-------|--------|------------|----------|
+| 1 | The Eiffel Tower was built in 1889 | ⚪ Unverified | 0.9997 | The Eiffel Tower is a wrought-iron lattice tower l... |
+| 2 | The Eiffel Tower stands 324 metres tall | ⚪ Unverified | 0.9998 | The Eiffel Tower is a wrought-iron lattice tower l... |
+| 3 | The Eiffel Tower was designed by Gustave Eiffel | ✅ Supported | 0.9838 | The tower was designed and built by Alexandre Gust... |
+| 4 | The Eiffel Tower is located in Paris, France | ✅ Supported | 0.9931 | The Eiffel Tower is a wrought-iron lattice tower l... |
+
+## ⚠️ Warnings
+
+Low confidence retrievals — verify manually:
+
+- The Eiffel Tower stands 324 metres tall

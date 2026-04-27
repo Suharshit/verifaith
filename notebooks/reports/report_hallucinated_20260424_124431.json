@@ -1,0 +1,65 @@
+{
+  "verifaith_version": "1.0.0",
+  "evaluated_at": "2026-04-24T12:44:31.895891",
+  "summary": {
+    "faithfulness_score": 0.5,
+    "verdict": "PARTIAL",
+    "total_claims": 4,
+    "supported": 2,
+    "unverified": 2,
+    "contradicted": 0,
+    "has_contradictions": false
+  },
+  "input": {
+    "answer": "The Eiffel Tower was built in 1950 and stands 500 metres tall.\nIt was designed by Leonardo da Vinci and is located in London, England.",
+    "source_count": 1
+  },
+  "claim_breakdown": [
+    {
+      "claim_id": 1,
+      "claim": "The Eiffel Tower was built in 1889",
+      "status": "unverified",
+      "confidence": 0.9997,
+      "evidence_span": "The Eiffel Tower is a wrought-iron lattice tower located on the Champ de Mars \n    in Paris, France.",
+      "source_doc": 0,
+      "retrieval_score": 0.7728,
+      "was_reranked": true
+    },
+    {
+      "claim_id": 2,
+      "claim": "The Eiffel Tower stands 324 metres tall",
+      "status": "unverified",
+      "confidence": 0.9998,
+      "evidence_span": "The Eiffel Tower is a wrought-iron lattice tower located on the Champ de Mars \n    in Paris, France.",
+      "source_doc": 0,
+      "retrieval_score": 0.6542,
+      "was_reranked": false
+    },
+    {
+      "claim_id": 3,
+      "claim": "The Eiffel Tower was designed by Gustave Eiffel",
+      "status": "supported",
+      "confidence": 0.9838,
+      "evidence_span": "The tower was designed and built by Alexandre Gustave Eiffel, \n    a French civil engineer.",
+      "source_doc": 0,
+      "retrieval_score": 0.8877,
+      "was_reranked": false
+    },
+    {
+      "claim_id": 4,
+      "claim": "The Eiffel Tower is located in Paris, France",
+      "status": "supported",
+      "confidence": 0.9931,
+      "evidence_span": "The Eiffel Tower is a wrought-iron lattice tower located on the Champ de Mars \n    in Paris, France.",
+      "source_doc": 0,
+      "retrieval_score": 0.851,
+      "was_reranked": false
+    }
+  ],
+  "contradiction_report": [],
+  "warnings": {
+    "low_confidence_retrievals": [
+      "The Eiffel Tower stands 324 metres tall"
+    ]
+  }
+}

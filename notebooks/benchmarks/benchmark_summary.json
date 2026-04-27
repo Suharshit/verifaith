@@ -1,0 +1,32 @@
+{
+  "benchmark_date": "2026-04-26T01:55:17.909853",
+  "total_samples": 15,
+  "faithful_samples": 7,
+  "unfaithful_samples": 8,
+  "verifaith": {
+    "System": "VeriFaith",
+    "Accuracy": 0.6667,
+    "Precision": 0.625,
+    "Recall": 0.7143,
+    "F1 Score": 0.6667,
+    "Pearson r": 0.5764,
+    "Spearman r": 0.5395
+  },
+  "ragas": {
+    "System": "RAGAS",
+    "Accuracy": 1.0,
+    "Precision": 1.0,
+    "Recall": 1.0,
+    "F1 Score": 1.0,
+    "Pearson r": 1.0,
+    "Spearman r": 1.0
+  },
+  "winner_per_metric": {
+    "Accuracy": "RAGAS",
+    "Precision": "RAGAS",
+    "Recall": "RAGAS",
+    "F1 Score": "RAGAS",
+    "Pearson r": "RAGAS",
+    "Spearman r": "RAGAS"
+  }
+}

@@ -1,0 +1,16 @@
+google-generativeai
+python-dotenv
+pydantic>=2.0.0
+transformers
+sentence-transformers
+faiss-cpu
+torch
+nltk
+fastapi
+uvicorn
+jupyter
+ipykernel
+pandas
+numpy
+tqdm
+groq
